@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header ul li {
+    margin: 0 1rem;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+#hero .btn {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+#services {
+    padding: 2rem;
+    background: #fff;
+}
+#services h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    max-width: 300px;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background: #fff;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+form button {
+    padding: 0.7rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
